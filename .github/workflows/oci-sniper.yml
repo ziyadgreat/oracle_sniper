@@ -8,7 +8,7 @@ name: OCI A1 Sniper
 on:
   schedule:
     # Every 15 min. GitHub cron is best-effort and can start a few minutes late.
-    - cron: "*/15 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 permissions:
